@@ -153,7 +153,7 @@ function draw() {
   textSize(30);
   text("SCORE="+score,450,40)
   //additional API call display
- text("Week Number="+week_number,750,40)
+ //text("Week Number="+week_number,750,40)
  
 }
 
@@ -180,8 +180,8 @@ async function backgrounds(){
   
   //addtional API call
 
-  week_number = json.week_number;
- console.log("Week Number="+week_number);
+  //week_number = json.week_number;
+ //.log("Week Number="+week_number);
  
   var hour = dt.slice(11,13);
   
